@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-        content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
     <title>我的简历</title>
     <style>
         * {
@@ -110,26 +110,27 @@
             color: #f60;
         }
 
-        .projects>ol {
+        .projects > ol {
             list-style-position: inside;
             padding: 0;
         }
 
-        .projects>ol>li {
+        .projects > ol > li {
             margin-bottom: 24px;
         }
 
-        .projects>ol>li>header {
+        .projects > ol > li > header {
             display: flex;
             justify-content: space-between;
         }
 
-        .projects>ol>li h3 {
+        .projects > ol > li h3 {
             display: inline-block;
         }
     </style>
     <style>
-        .skills {}
+        .skills {
+        }
 
         #skills {
 
@@ -144,38 +145,42 @@
         }
 
 
-        .skills>.wrapper {
+        .skills > .wrapper {
             display: flex;
             justify-content: space-between;
         }
 
-        .skills>.wrapper>:first-child {
+        .skills > .wrapper > :first-child {
             margin-right: 12px;
         }
 
-        .skills>.wrapper>#skills {}
+        .skills > .wrapper > #skills {
+        }
 
-        .skills>.wrapper>ul {
+        .skills > .wrapper > ul {
             color: #666;
         }
 
-        .skills>.wrapper strong {
+        .skills > .wrapper strong {
             color: #f60;
         }
 
-        .skills>.wrapper>ul>li {
+        .skills > .wrapper > ul > li {
             line-height: 1.2;
             margin-bottom: 8px;
         }
     </style>
     <style>
-        .openSource {}
+        .openSource {
+        }
 
-        .openSource>h2 {}
+        .openSource > h2 {
+        }
 
-        .openSource>ul {}
+        .openSource > ul {
+        }
 
-        .openSource>ul>li {
+        .openSource > ul > li {
             margin-bottom: 20px;
         }
 
@@ -185,16 +190,20 @@
             justify-content: space-between;
         }
 
-        .openSource h2 {}
+        .openSource h2 {
+        }
     </style>
     <style>
-        .jobs {}
+        .jobs {
+        }
 
-        .jobs>h2 {}
+        .jobs > h2 {
+        }
 
-        .job>ol {}
+        .job > ol {
+        }
 
-        .jobs>ol>li {
+        .jobs > ol > li {
             margin: 12px 0;
         }
 
@@ -204,23 +213,23 @@
             margin-bottom: 12px;
         }
 
-        .jobs header>h3 {
+        .jobs header > h3 {
             font-size: 18px;
             color: #333;
         }
 
-        .jobs header>h4 {
+        .jobs header > h4 {
             margin-left: 1em;
             font-size: 18px;
         }
 
-        .jobs header>span {
+        .jobs header > span {
             font-size: 18px;
             margin-left: auto;
         }
     </style>
     <style>
-        @media(max-width: 500px) {
+        @media (max-width: 500px) {
             body {
                 margin: 0;
             }
@@ -247,9 +256,9 @@
                 flex-direction: column;
             }
 
-            .jobs header>h3,
-            .jobs header>h4,
-            .jobs header>span {
+            .jobs header > h3,
+            .jobs header > h4,
+            .jobs header > span {
                 margin: 0;
             }
         }
@@ -257,172 +266,176 @@
 </head>
 
 <body>
-    <article>
-        <section class="bio">
-            <h1>徐丹</h1>
-            <img src="./images/my photo.jpg" alt="" width="125" height="170">
-            <p>
-                女 | 25岁 | 本科 | 前端开发工程师 | 武汉
-            </p>
+<article>
+    <section class="bio">
+        <h1>徐丹</h1>
+        <img src="./images/my photo.jpg" alt="" width="125" height="170">
+        <p>
+            女 | 25岁 | 本科 | 前端开发工程师 | 武汉
+        </p>
 
-            <text style="color:#666">
-                手机号：<a href="tel:12345678">18571560917</a> |
-                邮箱：<a href="mailto:550467116@qq.com">550467116@qq.com</a>
-            </text>
+        <text style="color:#666">
+            手机号：<a href="tel:12345678">18571560917</a> |
+            邮箱：<a href="mailto:550467116@qq.com">550467116@qq.com</a>
+        </text>
 
-        </section>
+    </section>
 
 
-        <section class="projects">
-            <h2>项目经历</h2>
-            <ol>
-                <li>
-                    <header>
-                        <h3>谷UI</h3>
-                        <span>
+    <section class="projects">
+        <h2>项目经历</h2>
+        <ol>
+            <li>
+                <header>
+                    <h3>谷UI</h3>
+                    <span>
                             <a href="#">源码链接</a>
                             <a href="#">项目预览</a>
                         </span>
-                    </header>
-                    <p>
-                        一款基于 <strong>React</strong> / <strong>TypeScript</strong> / <strong>Webpack</strong> 的 UI 框架。
+                </header>
+                <p>
+                    一款基于 <strong>React</strong> / <strong>TypeScript</strong> / <strong>Webpack</strong> 的 UI 框架。
 
-                    </p>
-                    <p>
-                        主要组件有日期选择器、弹出框、<strong>下拉更新</strong>、树形选择器等。
+                </p>
+                <p>
+                    主要组件有日期选择器、弹出框、<strong>下拉更新</strong>、树形选择器等。
 
-                    </p>
-                    <p>
-                        已被公司前端同事广泛使用，有效提高前端团队的开发效率。
+                </p>
+                <p>
+                    已被公司前端同事广泛使用，有效提高前端团队的开发效率。
 
-                    </p>
-                    <p>
-                        制作过程让我对 TypeScript 和单元测试有了新的认识。
-                        我将其总结成了一篇博客《TS 泛型的使用》。
-                    </p>
-                </li>
-                <li>
-                    <header>
-                        <h3>写代码啦.com</h3>
-                        <span>
+                </p>
+                <p>
+                    制作过程让我对 TypeScript 和单元测试有了新的认识。
+                    我将其总结成了一篇博客《TS 泛型的使用》。
+                </p>
+            </li>
+            <li>
+                <header>
+                    <h3>写代码啦.com</h3>
+                    <span>
                             <a href="#">源码私有</a>
                             <a href="#">项目预览</a>
                         </span>
-                    </header>
-                    <p>
-                        这是一个基于 <strong>Rails</strong> 和 <strong>Vue</strong> 的多页面应用。
-                    </p>
-                    <p>
-                        主要功能包括微信登录、手机验证、直播、点播、反盗版、答题系统、课程管理系统等。
-                        从数据库设计到前端展示，都是由我主导，另有两名前端辅助我。
-                    </p>
-                    <p>
-                        该系统<strong>大幅提高教学效率</strong>，优化教学流程，受到公司和用户的好评。
-                    </p>
-                </li>
-                <li>
-                    <header>
-                        <h3>旺财记账</h3>
-                        <span>
-                            <a href="#">源码私有</a>
-                            <a href="#">项目预览</a>
+                </header>
+                <p>
+                    这是一个基于 <strong>Rails</strong> 和 <strong>Vue</strong> 的多页面应用。
+                </p>
+                <p>
+                    主要功能包括微信登录、手机验证、直播、点播、反盗版、答题系统、课程管理系统等。
+                    从数据库设计到前端展示，都是由我主导，另有两名前端辅助我。
+                </p>
+                <p>
+                    该系统<strong>大幅提高教学效率</strong>，优化教学流程，受到公司和用户的好评。
+                </p>
+            </li>
+            <li>
+                <header>
+                    <h3>Life记账</h3>
+                    <span>
+                            <a href="https://github.com/eggs530/account-1">源码私有</a>
+                            <a href="https://eggs530.github.io/account-1-website/#/money">项目预览</a>
                         </span>
-                    </header>
-                    <p>
-                        一个基于 <strong>React</strong> / <strong>TypeScript</strong> 的移动端单页面应用。
-                    </p>
+                </header>
+                <p>
+                    一个基于 <strong>Vue</strong> / <strong>VueRouter</strong> / <strong>Vuex</strong> /
+                    <strong>TypeScript</strong>的移动端单页面应用。
+                </p>
 
-                    <p>
-                        这是我从自己的需求出发，设计出的极简记账应用，特点是快速记账，
-                        而且可以通过图表查看自己的消费习惯。
-                    </p>
-                    <p>
-                        该项目大量使用 <strong>React Hooks</strong>，让我对 Hooks 有了深刻的理解和应用。
-                    </p>
-                </li>
-            </ol>
-        </section>
-
-
-        <section class="skills">
-            <h2>技能</h2>
-            <div class="wrapper">
-                <div id="skills"></div>
-                <ul>
-                    <li>熟悉静态页面，能将设计稿<strong>完美还原</strong> </li>
-                    <li>熟悉<strong>前后端分离</strong>技术，包括 AJAX、跨域、前端路由、Cookie、Session 等</li>
-                    <li>熟练掌握 <strong>Vue全家桶</strong>的使用，包括 VueCli、VueRouter、Vuex 等</li>
-                    <li>熟练掌握 <strong>React全家桶</strong>的使用，包括 create-react-app、ReactRouter、Redux 等</li>
-                    <li>熟悉 ES6，包括 let / Promise / await / 析构赋值</li>
-                    <li>了解 <strong>TypeScript</strong> 的使用，我的项目就是 TS 实现的</li>
-                    <li>了解 <strong>Webpack 的配置和优化</strong></li>
-                </ul>
-            </div>
-        </section>
+                <p>
+                    由本人独立设计及实现，从自己的需求出发，设计出的极简记账应用，特点是快速记账，
+                    而且可以通过图表查看自己的消费习惯。
+                </p>
+                <p>
+                    期间遇到了很多<strong>webpack</strong>和TypeScript方面的问题，解决过程记录在本人博客
+                </p>
+                <p>
+                    该项目源代码几乎完全用 <strong>TypeScript</strong>实现，也用到了<strong>装饰器语法</strong>
+                </p>
+            </li>
+        </ol>
+    </section>
 
 
-        <section class="openSource">
-            <h2>开源项目</h2>
+    <section class="skills">
+        <h2>技能</h2>
+        <div class="wrapper">
+            <div id="skills"></div>
             <ul>
-                <li class="page2">
-                    <header>
-                        <h3>自己写的 DOM 库</h3>
-                        <a href="https://github.com/eggs530/dom-demo">源码链接</a>
-                    </header>
-                    <p>实现了元素选择、元素创建、<strong>事件委托</strong>、滑动手势等常见功能</p>
-                </li>
-                <li>
-                    <header>
-                        <h3>会动的皮卡丘</h3>
-                        <span>
+                <li>熟悉静态页面，能将设计稿<strong>完美还原</strong></li>
+                <li>熟悉<strong>前后端分离</strong>技术，包括 AJAX、跨域、前端路由、Cookie、Session 等</li>
+                <li>熟练掌握 <strong>Vue全家桶</strong>的使用，包括 VueCli、VueRouter、Vuex 等</li>
+                <li>熟练掌握 <strong>React全家桶</strong>的使用，包括 create-react-app、ReactRouter、Redux 等</li>
+                <li>熟悉 ES6，包括 let / Promise / await / 析构赋值</li>
+                <li>了解 <strong>TypeScript</strong> 的使用，我的项目就是 TS 实现的</li>
+                <li>了解 <strong>Webpack 的配置和优化</strong></li>
+            </ul>
+        </div>
+    </section>
+
+
+    <section class="openSource">
+        <h2>开源项目</h2>
+        <ul>
+            <li class="page2">
+                <header>
+                    <h3>自己写的 DOM 库</h3>
+                    <a href="https://github.com/eggs530/dom-demo">源码链接</a>
+                </header>
+                <p>实现了元素选择、元素创建、<strong>事件委托</strong>、滑动手势等常见功能</p>
+            </li>
+            <li>
+                <header>
+                    <h3>会动的皮卡丘</h3>
+                    <span>
                             <a href="https://github.com/eggs530/pikachu">源码链接</a>
                             <a href="https://eggs530.github.io/pikachu/src/test.html">项目预览</a>
                         </span>
-                    </header>
-                    <p>这是我在学习 <strong>CSS3和动画</strong> 时制作的一个可爱作品</p>
-                </li>
-                <li>
-                    <header>
-                        <h3>简易画板</h3>
-                        <span>
+                </header>
+                <p>这是我在学习 <strong>CSS3和动画</strong> 时制作的一个可爱作品</p>
+            </li>
+            <li>
+                <header>
+                    <h3>简易画板</h3>
+                    <span>
                             <a href="https://github.com/eggs530/canvas-demo1">源码链接</a>
                             <a href="https://eggs530.github.io/canvas-demo1/">项目预览</a>
                         </span>
-                    </header>
-                    <p>我在学习 <strong>Canvas</strong> 时做的一个小作品</p>
-                </li>
-            </ul>
-        </section>
+                </header>
+                <p>我在学习 <strong>Canvas</strong> 时做的一个小作品</p>
+            </li>
+        </ul>
+    </section>
 
-        <section class="jobs">
-            <h2>工作经历</h2>
-            <ol>
-                <li>
-                    <header>
-                        <h3> 武汉多来增值电信技术有限公司 </h3>
-                        <h4>前端开发工程师（Ruby+JS）</h4>
-                        <span><time>2017年7月</time>~<time>2020年8月</time></span>
-                    </header>
-                    <ul>
-                        <li>
-                            独立负责 iPad 客户端的后台 <strong>Rails</strong> 开发和前端开发工作
-                        </li>
-                        <li>
-                            负责团队基础库开发、单元测试、文档撰写，确保测试<strong>覆盖率达到 90%</strong> 以上
-                        </li>
-                        <li>
-                            作为前端骨干，负责给前端较弱的同事进行培训，提高其前端开发工作效率
-                        </li>
-                        <li>独立负责某 CRM 系统的开发与维护（后端使用Groovy，前端使用JS）</li>
-                        <li>负责全部门 <strong>UI 框架的开发</strong>，包括对话框、<strong>树形组件</strong>、<strong>日期选择器</strong>等常用组件</li>
-                        <li>定期组织内部分享，包括 Git 的使用、<strong>ES6 新特性</strong>、TypeScript 等话题</li>
-                    </ul>
-                </li>
-            </ol>
-        </section>
-    </article>
-    <script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.0.0-alpha.1/echarts.min.js"></script>
-    <script src="./main.js"></script>
+    <section class="jobs">
+        <h2>工作经历</h2>
+        <ol>
+            <li>
+                <header>
+                    <h3> 武汉多来增值电信技术有限公司 </h3>
+                    <h4>前端开发工程师（Ruby+JS）</h4>
+                    <span><time>2017年7月</time>~<time>2020年8月</time></span>
+                </header>
+                <ul>
+                    <li>
+                        独立负责 iPad 客户端的后台 <strong>Rails</strong> 开发和前端开发工作
+                    </li>
+                    <li>
+                        负责团队基础库开发、单元测试、文档撰写，确保测试<strong>覆盖率达到 90%</strong> 以上
+                    </li>
+                    <li>
+                        作为前端骨干，负责给前端较弱的同事进行培训，提高其前端开发工作效率
+                    </li>
+                    <li>独立负责某 CRM 系统的开发与维护（后端使用Groovy，前端使用JS）</li>
+                    <li>负责全部门 <strong>UI 框架的开发</strong>，包括对话框、<strong>树形组件</strong>、<strong>日期选择器</strong>等常用组件</li>
+                    <li>定期组织内部分享，包括 Git 的使用、<strong>ES6 新特性</strong>、TypeScript 等话题</li>
+                </ul>
+            </li>
+        </ol>
+    </section>
+</article>
+<script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.0.0-alpha.1/echarts.min.js"></script>
+<script src="./main.js"></script>
 </body>
 
 </html>
